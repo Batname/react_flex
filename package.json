@@ -1,0 +1,22 @@
+{
+  "name": "Flex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --harmony --use-strict server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "flux": "^2.0.1",
+    "gulp": "^3.8.11",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.5.2",
+    "koa": "^0.18.1",
+    "koa-static": "^1.4.9",
+    "react": "^0.13.1",
+    "reactify": "^1.1.0"
+  }
+}
